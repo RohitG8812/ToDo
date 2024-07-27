@@ -116,7 +116,7 @@ function Todo() {
             sx={{ minWidth: 310, maxWidth: 600, mb: "20px" }}
           ></TextField>
         </Box>
-        <Box height={"300px"} overflow={"auto"}>
+        <Box height={"370px"} overflow={"auto"} className="todo-task-container">
           {todos.length > 0 ? (
             <Box
               mt={"0px"}
@@ -128,13 +128,14 @@ function Todo() {
                 Today's Works
               </Typography>
               <Typography className="todo-work" mt={0.5} paddingRight={"7px"}>
-                Done Rem
+                Done &nbsp; Rem
               </Typography>
             </Box>
           ) : (
             <img
+              className="no-task-img"
               src={TodoSvg}
-              style={{ marginTop: "30px", textDecoration: "" }}
+              style={{ marginTop: "50px", textDecoration: "" }}
             />
           )}
           <Box minWidth={300} className="todo-works">

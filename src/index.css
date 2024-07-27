@@ -39,7 +39,7 @@
   font-size: 14px !important;
 }
 
-.MuiBox-root.css-gt9jr {
+.todo-task-container{
   scrollbar-width: none;
 }
 
@@ -47,13 +47,12 @@
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .icons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .done {
@@ -68,4 +67,13 @@
 
 .textOfTodo {
   display: flex;
+}
+
+@media (max-width : 380px) {
+  .todo-task-container{
+    height: 390px !important;
+  }
+  .no-task-img{
+    margin-top: 70px !important;
+  }
 }
