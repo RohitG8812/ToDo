@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif !important;
+  height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 .todo-main-container {
