@@ -82,7 +82,7 @@ function Todo() {
     <Box
       m={0}
       p={0}
-      height={"100vh"}
+      height={"-webkit-fill-available"}
       display={"flex"}
       justifyContent={"center"}
       alignItems={"center"}
